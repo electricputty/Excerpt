@@ -1,0 +1,14 @@
+__data/*
+__downloads/*
+__scratchpad/*
+__sql/*
+*.esproj/*
+*.esproj
+.DS_Store
+admin/expressionengine/config/config.php
+admin/expressionengine/config/database.php
+admin/expressionengine/cache/
+admin/expressionengine/third_party/ep_better_workflow/logs/*
+.buildpath
+.project
+.settings/*
