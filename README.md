@@ -1,7 +1,6 @@
 #Excerpt
 
 ## Usage:
---------------------------------
 Wrap this plugin around the {full_text} variable on your search results template.
 
 i.e. {exp:zm_excerpt}{full_text}{/exp:zm_excerpt}
@@ -9,7 +8,6 @@ i.e. {exp:zm_excerpt}{full_text}{/exp:zm_excerpt}
 Alternatively you can wrap this plugin around any text, and supply words to highlight.
 
 ## Parameters:
---------------------------------
 ### wrap=""
 
 The html tag name (don't include the < > parts) to wrap around each highlighted word. The
@@ -78,7 +76,6 @@ are "asc" or "desc". Default is "asc".
 Order the chunks. Currently this parameter accepts only "random".
 
 ## Additional Notes:
---------------------------------
 The three wrap parameters (wrap, chunk_wrap, output_wrap) are tested against a list of
 deemed 'safe' html tags. Should it fail this test it reverts back to the default tag for
 that parameter. These defaults, as well as the safe list, can be edited. The variables are
